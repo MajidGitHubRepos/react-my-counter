@@ -1,8 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Counters from "./components/counters";
 
 function App() {
-  return <h1>Hello World!</h1>;
+  return <Counters />;
 }
 
 export default App;
