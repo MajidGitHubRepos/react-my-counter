@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 class Counter extends Component {
-  state = { value: this.props.counter.value };
+  state = { value: this.props.counter.value }; //initialize once at the begining when an instance of the counter componet is created.
 
   render() {
     return (
